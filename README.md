@@ -1,6 +1,6 @@
-# ecv_mobile_list_flutter
+# ECV Mobile List Flutter
 
-A new Flutter project.
+Création d'une mini application Flutter permettant de lister des personnages issus d'une api.
 
 ## Getting Started
 
