@@ -12,9 +12,12 @@ class CharacterCard extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Row(children: [
-          Image.network(
-            imageUrl, 
-            width: 120), 
+          Hero(
+            tag: imageUrl,
+            child: Image.network(
+              imageUrl, 
+              width: 120),
+          ), 
              Flexible(
                child: Padding(
                 padding: const EdgeInsets.only(left: 16), 

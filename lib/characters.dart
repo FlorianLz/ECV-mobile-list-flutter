@@ -39,7 +39,7 @@ class _CharacterPageState extends State<CharacterPage> {
         children: 
           characters.map((character) => InkWell(
             onTap: () => Navigator.of(context).push(MaterialPageRoute(
-              builder: (context) => CharacterDetailsPage(id: character['id'])
+              builder: (context) => CharacterDetailsPage(id: character['id'], imageUrl: character['image'])
             )),
             child: CharacterCard(
               imageUrl: character['image'],
